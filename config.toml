@@ -5,8 +5,22 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
+
+[YouTube]
+build-mode = "both"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+
+[Music]
+build-mode = "both"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
@@ -20,7 +34,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrvx-magisk"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "YT-Music"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
