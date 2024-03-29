@@ -13,13 +13,15 @@ excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube
 included-patches = "'Add splash animation' 'MaterialYou'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+module-prop-name = "Youtube-magisk"
 
 [Music]
-app-name = "YT-Music"
+app-name = "Music"
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
+module-prop-name = "Youtube-Music-magisk"
 
 [YouTube-Extended]
 enabled = false
