@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
+[YT]
 enabled = true
 app-name = "YouTube"
 build-mode = "both"
@@ -16,7 +16,7 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 module-prop-name = "Youtube-magisk"
 
-[Music]
+[YT-Music]
 enabled = true
 app-name = "Music"
 build-mode = "both"
