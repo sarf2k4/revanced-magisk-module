@@ -25,7 +25,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 module-prop-name = "YT-Music-magisk"
 
-
 [YouTube-Extended]
 enabled = false
 app-name = "YouTube"
