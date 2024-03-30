@@ -5,8 +5,54 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-[YouTube-Extended]
+
+[YouTube]
 enabled = true
+app-name = "YouTube"
+build-mode = "both"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+module-prop-name = "Youtube-magisk"
+
+[Music]
+enabled = true
+app-name = "YT-Music"
+build-mode = "both"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+module-prop-name = "YT-Music-magisk"
+logging-to-file = true        # enables logging of every patch process to a seperate file
+enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+
+# add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
+
+[YouTube]
+enabled = true
+app-name = "YouTube"
+build-mode = "both"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+module-prop-name = "Youtube-magisk"
+
+[Music]
+enabled = true
+app-name = "YT-Music"
+build-mode = "both"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+module-prop-name = "YT-Music-magisk"
+
+[YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
@@ -20,7 +66,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrvx-magisk"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "YT-Music"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
