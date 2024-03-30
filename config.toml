@@ -25,6 +25,11 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 module-prop-name = "YT-Music-magisk"
 
+[Tiktok]
+enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+included-patches = "'SIM spoof'"
+
 [YouTube-Extended]
 enabled = false
 app-name = "YouTube"
