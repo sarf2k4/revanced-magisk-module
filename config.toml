@@ -12,7 +12,7 @@ build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
 module-prop-name = "Youtube-magisk"
 
@@ -21,7 +21,7 @@ enabled = true
 app-name = "YT-Music"
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 module-prop-name = "YT-Music-magisk"
@@ -29,7 +29,7 @@ module-prop-name = "YT-Music-magisk"
 [Tiktok]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 included-patches = "'SIM spoof'"
 
 [YouTube-Extendedd]
