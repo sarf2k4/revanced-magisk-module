@@ -33,7 +33,7 @@ included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "YT-Music-magisk"
-arch = "arm64-v8a"
+arch = "both"
 
 [Tiktok]
 enabled = true
