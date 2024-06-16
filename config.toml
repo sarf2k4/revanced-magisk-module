@@ -32,6 +32,17 @@ apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-mu
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 included-patches = "'SIM spoof'"
 
+[Twitter]
+enabled = false
+build-mode = "apk"
+merge-integrations = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+
+[Twitch]
+enabled = false
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+
 [YouTube-Extendedd]
 enabled = false
 app-name = "YouTube"
@@ -60,14 +71,3 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytmusicrvx-magisk"
 arch = "both"
-
-[Twitter]
-enabled = false
-build-mode = "apk"
-merge-integrations = true
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-
-[Twitch]
-enabled = false
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
