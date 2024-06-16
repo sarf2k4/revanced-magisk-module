@@ -1,5 +1,5 @@
-Music-Extended (arm-v7a): 7.05.52  
 Music-Extended (arm64-v8a): 7.05.52  
+Music-Extended (arm-v7a): 7.05.52  
 YouTube-Extended: 19.21.40  
 Tiktok: 32.5.3  
 
