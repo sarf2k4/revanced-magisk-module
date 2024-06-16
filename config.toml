@@ -17,7 +17,7 @@ excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube
 included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable music search'" 
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "YouTube-magisk"
+module-prop-name = "ytrvx-magisk"
 
 
 [Music-Extended]
@@ -32,51 +32,16 @@ excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon Y
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "YT-Music-magisk"
-arch = "both"
-
-[Tiktok]
-enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-
-[YouTube-Extendedd]
-enabled = false
-app-name = "YouTube"
-build-mode = "both"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube'"
-included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable music search'" 
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "ytrvx-magisk"
-
-[Music-Extendedd]
-enabled = false
-app-name = "YT-Music"
-build-mode = "both"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music'"
-included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytmusicrvx-magisk"
-arch = "both"
+arch = "arm64-v8a"
 
 [Twitter]
-enabled = false
+enabled = true
 build-mode = "apk"
 merge-integrations = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 
 [Twitch]
-enabled = false
+enabled = true
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
