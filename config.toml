@@ -47,10 +47,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrvx-magisk"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [Music-Extended]
 enabled = true
 =======
+=======
+>>>>>>> parent of ca1453a (Merge pull request #15 from sarf2k4/Source)
 [Music-Extended]
 enabled = false
 >>>>>>> parent of ca1453a (Merge pull request #15 from sarf2k4/Source)
