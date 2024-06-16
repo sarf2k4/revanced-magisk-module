@@ -9,8 +9,6 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 enabled = true
 app-name = "YouTube"
 build-mode = "both"
-<<<<<<< HEAD
-=======
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 included-patches = "'Add splash animation' 'MaterialYou'"
 version = "auto"
@@ -35,7 +33,6 @@ included-patches = "'SIM spoof'"
 enabled = false
 app-name = "YouTube"
 build-mode = "both"
->>>>>>> parent of ca1453a (Merge pull request #15 from sarf2k4/Source)
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -46,17 +43,8 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrvx-magisk"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-[Music-Extended]
-enabled = true
-=======
-=======
->>>>>>> parent of ca1453a (Merge pull request #15 from sarf2k4/Source)
 [Music-Extended]
 enabled = false
->>>>>>> parent of ca1453a (Merge pull request #15 from sarf2k4/Source)
 app-name = "YT-Music"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
