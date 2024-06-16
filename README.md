@@ -1,5 +1,3 @@
-#### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. There are many that uses my modules and impersonates ReVanced.
-
 # ReVanced Magisk Module
 [![CI](https://github.com/sarf2k4/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/sarf2k4/revanced-magisk-module/actions/workflows/ci.yml)
 
@@ -28,7 +26,6 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 </details>
 
 ## To include/exclude patches or patch other apps
-[**See the list of patches**](https://j-hc.github.io/rvmm-config-gen/)
 
  * Star the repo :eyes:
  * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=j-hc)
