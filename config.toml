@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
+enabled = true
 app-name = "YouTube"
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
@@ -17,7 +17,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
 module-prop-name = "Youtube-magisk"
 
 [Music]
-enabled = false
+enabled = true
 app-name = "YT-Music"
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
@@ -25,23 +25,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 module-prop-name = "YT-Music-magisk"
-
-[Tiktok]
-enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-
-[Twitter]
-enabled = false
-build-mode = "apk"
-merge-integrations = true
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-
-[Twitch]
-enabled = false
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [YouTube-Extendedd]
 enabled = true
@@ -71,3 +54,20 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 module-prop-name = "YT-MusicX-magisk"
+
+[Tiktok]
+enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+included-patches = "'SIM spoof'"
+
+[Twitter]
+enabled = false
+build-mode = "apk"
+merge-integrations = true
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+
+[Twitch]
+enabled = false
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
