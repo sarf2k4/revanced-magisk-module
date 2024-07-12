@@ -5,8 +5,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube-Extended]
-enabled = true
+[YouTube]
+enabled = false
 app-name = "YouTube"
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
@@ -16,8 +16,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
 module-prop-name = "Youtube-magisk"
 
-[Music-Extended]
-enabled = true
+[Music]
+enabled = false
 app-name = "YT-Music"
 build-mode = "both"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
@@ -44,30 +44,30 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [YouTube-Extendedd]
-enabled = false
+enabled = true
 app-name = "YouTube"
-build-mode = "both"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube'"
-included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable music search'" 
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "ytrvx-magisk"
+excluded-patches = "'Custom branding name for YouTube' 'Custom branding icon for YouTube'"
+included-patches = ""
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+module-prop-name = "YoutubeX-magisk"
 
 [Music-Extendedd]
-enabled = false
+enabled = true
 app-name = "YT-Music"
-build-mode = "both"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music'"
+excluded-patches = "'Custom branding name for YouTube Music' 'Custom branding icon for YouTube Music'"
 included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytmusicrvx-magisk"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
+module-prop-name = "YT-MusicX-magisk"
