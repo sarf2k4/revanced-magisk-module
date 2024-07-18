@@ -26,7 +26,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 module-prop-name = "YT-Music-magisk"
 
-[YouTube-Extendedd]
+[YouTube-Extended]
 enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
@@ -40,7 +40,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 module-prop-name = "YoutubeX-magisk"
 
-[Music-Extendedd]
+[Music-Extended]
 enabled = true
 app-name = "YT-Music"
 patches-source = "inotia00/revanced-patches"
