@@ -1,6 +1,6 @@
 {
-  "version": "v7.23.51",
-  "versionCode": 32,
-  "zipUrl": "https://github.com/sarf2k4/revanced-magisk-module/releases/download/32/yt-music-revanced-magisk-v7.23.51-arm-v7a.zip",
+  "version": "v7.27.52 (35)",
+  "versionCode": 35,
+  "zipUrl": "https://github.com/sarf2k4/revanced-magisk-module/releases/download/35/music-revanced-magisk-v7.27.52-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/sarf2k4/revanced-magisk-module/update/build.md"
 }
