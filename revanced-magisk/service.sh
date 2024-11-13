@@ -22,7 +22,7 @@ run() {
 		return
 	fi
 	sleep 4
-	
+
 	BASEPATH=${BASEPATH##*:} BASEPATH=${BASEPATH%/*}
 	if [ ! -d "$BASEPATH/lib" ]; then # TODO: is this ok? idk
 		ls -Zla "$BASEPATH" >"$MODDIR/log.txt"
