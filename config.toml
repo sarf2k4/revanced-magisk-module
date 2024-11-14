@@ -26,8 +26,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [Music-Extended]
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+patches-source = "inotia00/revanced-patches-arsclib "
+cli-source = "inotia00/revanced-cli-arsclib"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
@@ -36,8 +36,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube-Extended]
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+patches-source = "inotia00/revanced-patches-arsclib "
+cli-source = "inotia00/revanced-cli-arsclib"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
